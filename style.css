@@ -1,0 +1,12 @@
+.reveal .footer {
+  font-size: 30px !important;
+}
+
+.reveal .slide-logo {
+  max-height: unset !important;
+  height: 70px !important;
+}
+
+h1.title {
+  font-size: 2em !important;
+}

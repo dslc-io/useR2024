@@ -1,0 +1,14 @@
+---
+title: |
+  <img src="images/dslc_stacked_dark.png" alt="DSLC logo" width="40%" style="float: right;">Learning Together at the Data Science Learning Community
+css: style.css
+format:
+  revealjs: 
+    theme: [dark, custom.scss]
+    logo: images/dslc_stacked_dark.png
+    footer: dslc.io/user2024 | Jon Harmon | @jonthegeek@fosstodon.org
+    link-external-newwindow: true
+    transition: slide
+---
+
+# Who are you?
