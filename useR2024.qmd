@@ -12,7 +12,7 @@ format:
     transition: slide
 ---
 
-# Who are you?
+# DSLC who?
 
 ```{r}
 #| include: false
@@ -144,13 +144,13 @@ We're still the same community.
 :::
 
 ::: fragment
-💬 Small groups to encourage discussion
+`{r} fontawesome::fa_i("users-rectangle")` Small groups to encourage discussion
 :::
 ::: fragment
-🎦 Videos on YouTube to catch up
+`{r} fontawesome::fa_i("youtube", style = "color: red;")` Videos on YouTube to catch up
 :::
 ::: fragment
-💻  Slack channel per book for asynchronous discussion
+`{r} fontawesome::fa_i("slack")` Slack channel per book for asynchronous discussion
 :::
 
 ::: notes
@@ -219,12 +219,12 @@ We're still the same community.
 ::::: columns
 :::: column
 ::: {.fragment fragment-index=1}
-🐘 Datasets @ [tidytues.day](https://tidytues.day)
+`{r} fontawesome::fa_i("database")` Datasets @ [tidytues.day](https://tidytues.day)
 :::
 ::: {.fragment fragment-index=2}
 👩‍💻 Participants share: \
-&nbsp;&nbsp;📊 data visualizations \
-&nbsp;&nbsp;💻 code
+&nbsp;&nbsp;`{r} fontawesome::fa_i("chart-line")` data visualizations \
+&nbsp;&nbsp;`{r} fontawesome::fa_i("file-code")` code
 :::
 ::: {.fragment fragment-index=4}
 📥 To-do: App for finding datasets
@@ -252,10 +252,10 @@ We're still the same community.
 ## Contribute
 
 ::: fragment
-👩‍🏫 Answer questions on Slack: [dslc.io/mentordash](https://dslc.io/mentordash)
+`{r} fontawesome::fa_i("comments")` Answer questions on Slack: [dslc.io/mentordash](https://dslc.io/mentordash)
 :::
 ::: fragment
-✅ Facilitate a book club cohort 
+`{r} fontawesome::fa_i("book-open-reader")` Facilitate a book club cohort 
 :::
 ::: fragment
 ✨ Contribute to Shiny apps 
