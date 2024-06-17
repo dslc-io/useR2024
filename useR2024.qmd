@@ -14,6 +14,14 @@ format:
 
 # Who are you?
 
+```{r}
+#| include: false
+#| eval: true
+library(knitr)
+library(rmarkdown)
+library(fontawesome)
+```
+
 ## From R4DS to DSLC
 
 ::::: columns
