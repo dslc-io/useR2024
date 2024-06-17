@@ -18,7 +18,6 @@ format:
 #| include: false
 #| eval: true
 library(knitr)
-library(rmarkdown)
 library(fontawesome)
 ```
 
