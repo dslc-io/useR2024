@@ -8,7 +8,7 @@
 <link href="useR2024_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="useR2024_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="useR2024_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.555">
 
   <title>Learning Together at the Data Science Learning Community</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -320,6 +320,8 @@
       margin-right: 0; 
     }
   </style>
+  <link href="useR2024_files/libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="useR2024_files/libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
 </head>
 <body class="quarto-dark">
   <div class="reveal">
@@ -332,15 +334,460 @@
 </div>
 
 </section>
+<section>
 <section id="who-are-you" class="title-slide slide level1 center">
 <h1>Who are you?</h1>
+
+</section>
+<section id="from-r4ds-to-dslc" class="slide level2">
+<h2>From R4DS to DSLC</h2>
+<div class="columns">
+<div class="column">
+<div class="fragment" data-fragment-index="1">
+<p><img data-src="images/r4ds_olc-logo-big.png" height="350"></p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p>❓ Name is confusing</p>
+</div>
+</div><div class="column">
+<div class="fragment" data-fragment-index="3">
+<p><img data-src="images/dslc_stacked_dark_noborder.png" height="350"></p>
+</div>
+<div class="fragment" data-fragment-index="4">
+<p>🤝 Name is inviting</p>
+</div>
+</div>
+</div>
+<div class="fragment" data-fragment-index="5" style="text-align: center;">
+<p>We’re still the same community.</p>
+</div>
+<aside class="notes">
+<ul>
+<li>You may know us as R4DS or the R4DS Online Learning Community</li>
+<li>Started as a book club for that one book in 2017, but
+<ul>
+<li>We’ve never been affiliated with that book</li>
+<li>We cover much more than that one book</li>
+</ul></li>
+<li>Now we’re the data science learning community (as of April 2024)</li>
+<li>If you want to learn anything about data science, we’re here to help.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="our-mission" class="slide level2">
+<h2>Our mission</h2>
+<blockquote>
+<p>To provide tools and resources to foster a diverse, friendly, and inclusive community of data science learners and practitioners.</p>
+</blockquote>
+<div class="fragment" style="text-align: center; font-size: 2em;">
+<p><strong><a href="https://dslc.io">DSLC.io</a></strong></p>
+</div>
+<div class="columns">
+<div class="column">
+<div class="fragment">
+<p>📚 Learning together</p>
+</div>
+<div class="fragment">
+<p>👩‍🏫 Helping one another</p>
+</div>
+</div><div class="column">
+<div class="fragment">
+<p>📢 Learning out loud</p>
+</div>
+<div class="fragment">
+<p>🖇️ Making connections</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>I was lucky when I started to learn Data Science.
+<ul>
+<li>Found a friendly community on social media.</li>
+<li>I have advantages that not everybody has.</li>
+</ul></li>
+<li>Let’s make sure everybody has a good learning experience.</li>
+<li>Tools and resources are focused in these areas:
+<ul>
+<li>Learning together</li>
+<li>Helping one another</li>
+<li>Learning out loud</li>
+<li>Still to come: Making connections</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="what-do-you-do" class="title-slide slide level1 center">
+<h1>What do you do?</h1>
+
+</section>
+<section id="learning-together-with-book-clubs" class="slide level2">
+<h2>Learning Together with Book Clubs</h2>
+<p><img data-src="images/r4ds-cover.jpg" class="absolute" style="bottom: 10px; height: 300px; "></p>
+<div class="fragment fade-out" data-fragment-index="0">
+<p><img data-src="images/r4ds-1e-cover.png" class="absolute" style="bottom: 10px; width: 382px; "></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="0">
+<p><img data-src="images/r4ds-cover.jpg" class="absolute" style="bottom: 10px; height: 500px; "></p>
+</div>
+<div class="fragment" data-fragment-index="1">
+<p><img data-src="images/advr-cover.png" class="absolute" style="left: 150px; bottom: 10px; height: 300px; "></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="1">
+<p><img data-src="images/advr-cover.png" class="absolute" style="left: 150px; bottom: 10px; height: 500px; "></p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p><img data-src="images/tmwr-cover.png" class="absolute" style="left: 300px; bottom: 10px; height: 300px; "></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="2">
+<p><img data-src="images/tmwr-cover.png" class="absolute" style="left: 300px; bottom: 10px; height: 500px; "></p>
+</div>
+<div class="fragment" data-fragment-index="3">
+<p><img data-src="images/mshiny-cover.png" class="absolute" style="left: 450px; bottom: 10px; height: 300px; "></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="3">
+<p><img data-src="images/mshiny-cover.png" class="absolute" style="left: 450px; bottom: 10px; height: 500px; "></p>
+</div>
+<div class="fragment" data-fragment-index="4">
+<p><img data-src="images/rpkgs-cover-2e.png" class="absolute" style="left: 600px; bottom: 10px; height: 300px; "></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="4">
+<p><img data-src="images/rpkgs-cover-2e.png" class="absolute" style="left: 600px; bottom: 10px; height: 500px; "></p>
+</div>
+<div class="fragment" data-fragment-index="5">
+<p><img data-src="images/islr.png" class="absolute" style="left: 750px; bottom: 10px; height: 300px; "></p>
+</div>
+<div class="fragment fade-in-then-out" data-fragment-index="5">
+<p><img data-src="images/islr.png" class="absolute" style="left: 750px; bottom: 10px; height: 500px; "></p>
+</div>
+<div class="fragment" data-fragment-index="6">
+<p>📚 Over 60 free, online data science books</p>
+</div>
+<div class="fragment">
+<p>💬 Small groups to encourage discussion</p>
+</div>
+<div class="fragment">
+<p>🎦 Videos on YouTube to catch up</p>
+</div>
+<div class="fragment">
+<p>💻 Slack channel per book for asynchronous discussion</p>
+</div>
+<aside class="notes">
+<ul>
+<li>Start: R4DS</li>
+<li>(move through fast)</li>
+<li>Added Advanced R in April 2020 (bored at home)</li>
+<li>Also books in other languages.</li>
+<li>Books from “Advanced R” to “What They Forgot to Teach You About R”
+<ul>
+<li>If anybody knows a data science book that starts with “Z” to make that work better, please let me know!</li>
+</ul></li>
+<li>Books and book-like things like online courses and even pkgdown sites.
+<ul>
+<li>Just needs to be free (legally) online.</li>
+</ul></li>
+<li>The name “R4DS Online Learning Community” became less and less accurate.</li>
+<li>5-6 is ideal.
+<ul>
+<li>(Don’t move forward yet)</li>
+<li>1-hour weekly meeting</li>
+<li>Shared slide decks that we’re developing collaboratively</li>
+<li>I’ve worked in educational publishing for about 25 years, sneak in best practices</li>
+</ul></li>
+<li>(Next slide) Vids on YouTube, so it’s ok to miss a week</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="helping-each-other-with-friendly-qa" class="slide level2">
+<h2>Helping Each Other with Friendly Q&amp;A</h2>
+<div class="fragment">
+<p>🙋‍♂️ Supportive community for asking questions</p>
+</div>
+<div class="fragment">
+<p>🤝 Culture of collaboration – it’s ok to not know!</p>
+</div>
+<div class="fragment">
+<p>🎦 <a href="https://posit.co/resources/videos/learning-by-teaching-mentoring-at-the-r4ds-online-learning-community/">Learning by Teaching</a> me @ rstudio::conf(2020)</p>
+</div>
+<aside class="notes">
+<ul>
+<li>#help- channels to ask and answer questions
+<ul>
+<li>From the start: code of conduct has encouraged friendliness.</li>
+<li>“The anti stack overflow.” Don’t make people feel bad for asking questions.</li>
+</ul></li>
+<li>Everyone has things they don’t know yet.</li>
+<li>Lightning talk: “Learning by Teaching”, because answering questions is a great way to practice and cement skills
+<ul>
+<li>Step up from book clubs.</li>
+<li>Strongly encouraged at all skill levels.</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="finding-unanswered-questions" class="slide level2">
+<h2>Finding Unanswered Questions</h2>
+<div class="fragment">
+<p>👩‍🏫 <a href="https://r4ds.io/mentordash">{mentordash}</a></p>
+</div>
+<div class="fragment fade-in-then-out">
+<p><img data-src="images/mentordash.png" class="absolute" style="bottom: 10px; height: 600px; "></p>
+</div>
+<aside class="notes">
+<ul>
+<li>Mentordash = unanswered question tracker</li>
+<li>This one is older, and has had more help from the community.
+<ul>
+<li>Tan Ho did most of the UI.</li>
+</ul></li>
+<li>We try to keep that at 0, but here it was relatively high!</li>
+<li>Loads live data from Slack</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learning-out-loud-with-tidytuesday" class="slide level2">
+<h2>Learning Out Loud with #TidyTuesday</h2>
+<div class="fragment fade-out" data-fragment-index="1">
+<p><img data-src="images/tt_logo.png" class="absolute" style="top: 100px; width: 100%; "></p>
+</div>
+<div class="columns">
+<div class="column">
+<div class="fragment" data-fragment-index="1">
+<p>🐘 Datasets @ <a href="https://tidytues.day">tidytues.day</a></p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p>👩‍💻 Participants share:<br>
+&nbsp;&nbsp;📊 data visualizations<br>
+&nbsp;&nbsp;💻 code</p>
+</div>
+<div class="fragment" data-fragment-index="4">
+<p>📥 To-do: App for finding datasets</p>
+</div>
+</div><div class="column">
+<div class="fragment" data-fragment-index="3">
+<p><img data-src="images/tt_nicola.png" style="width:70.0%"></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Weekly social data project</li>
+<li>Started by Tom Mock back in April 2018</li>
+<li>Now me and Tracy Teal curate datasets</li>
+<li>Datasets on social media &amp; tidytues.day</li>
+<li>Nicola Rennie from March 2024</li>
+<li>Used in college courses for projects
+<ul>
+<li>See github.com/r4ds/ttmeta</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="how-can-i-help" class="title-slide slide level1 center">
+<h1>How can I help?</h1>
+
+</section>
+<section id="contribute" class="slide level2">
+<h2>Contribute</h2>
+<div class="fragment">
+<p>👩‍🏫 Answer questions on Slack: <a href="https://dslc.io/mentordash">dslc.io/mentordash</a></p>
+</div>
+<div class="fragment">
+<p>✅ Facilitate a book club cohort</p>
+</div>
+<div class="fragment">
+<p>✨ Contribute to Shiny apps</p>
+</div>
+<aside class="notes">
+<ul>
+<li>Come to DSLC.io to join our Slack!
+<ul>
+<li>Answering questions is a great way to learn!</li>
+<li>Try to keep replies in threads so mentordash can keep track</li>
+</ul></li>
+<li>Must participate in a club first, but
+<ul>
+<li>after you do we can always use facilitators</li>
+<li>Times are chosen out of your choices, so it’s guaranteed to work for you</li>
+</ul></li>
+<li>Convince me to let you contribute!
+<ul>
+<li>I’m trying to make the github repos welcoming</li>
+<li>Bookclubber exists because Priyanka Gagneja made a v1.</li>
+<li>Automatic processing happens because Kevin Kent sorted out how to interact with the YouTube API.</li>
+<li>I mentioned needing help, they ran with them.</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sponsorship" class="slide level2">
+<h2>Sponsorship</h2>
+<div class="fragment">
+<p>🔍 Seeking a new fiscal host</p>
+</div>
+<div class="fragment">
+<p>💸 Grants and sponsorships helpful!</p>
+</div>
+<div class="fragment">
+<p>🙏 Grateful for all contributions</p>
+</div>
+<aside class="notes">
+<ul>
+<li>We’re a collective in the Open Collective Foundation, which makes us count as a 501c3 charitable organization for US taxes.
+<ul>
+<li>OCF dissolved suddenly in March 2024</li>
+<li>Need a STABLE new host by end of this year</li>
+</ul></li>
+<li>Even before then we can start working out details of grants and sponsorships!
+<ul>
+<li>I don’t get paid for any of this yet.</li>
+<li>My dream is to work on this full time.</li>
+</ul></li>
+<li>We had a fundraiser in March 2024 while we still could, and my heart is warmed by the response.
+<ul>
+<li>Will let us keep things running, but won’t get us all the way to where I envision us going.</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="join-the-community" class="slide level2">
+<h2>Join the community!</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="images/dslc_stacked_dark_noborder.png"></p>
+</div><div class="column">
+<p><br></p>
+<div class="fragment">
+<p><i class="fab fa-mastodon" role="presentation" aria-label="mastodon icon"></i> <a href="https://fosstodon.org/@jonthegeek"><span class="citation" data-cites="jonthegeek">@jonthegeek</span></a><br>
+</p>
+</div>
+<div class="fragment">
+<p><i class="fab fa-mastodon" role="presentation" aria-label="mastodon icon"></i> <a href="https://fosstodon.org/@DSLC"><span class="citation" data-cites="DSLC">@DSLC</span></a><br>
+</p>
+</div>
+<div class="fragment">
+<p><i class="fab fa-mastodon" role="presentation" aria-label="mastodon icon"></i> <a href="https://fosstodon.org/@DSLCvids"><span class="citation" data-cites="DSLCvids">@DSLCvids</span></a></p>
+</div>
+<div class="fragment">
+<p><i class="fab fa-linkedin" role="presentation" aria-label="linkedin icon"></i> <a href="https://linkedin.com/in/jonthegeek">/jonthegeek</a><br>
+</p>
+</div>
+<div class="fragment">
+<p><i class="fab fa-linkedin" role="presentation" aria-label="linkedin icon"></i> <a href="https://www.linkedin.com/company/dslc-io">/company/DSLC-io</a><br>
+</p>
+</div>
+<div class="fragment">
+<p><i class="fab fa-linkedin" role="presentation" aria-label="linkedin icon"></i> <a href="https://www.linkedin.com/company/dslcvids">/company/DSLCvids</a><br>
+</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>If the join link fails, let me know at jon@dslc.io!</li>
+<li>When you join, post in the #0-intros_and_welcome channel!</li>
+<li>Ok to ping me for DSLC questions, but ask your help questions in the open in the help channels, so everyone can learn together!</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <div class="quarto-auto-generated-content">
 <p><img src="images/dslc_stacked_dark.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>dslc.io/user2024 | Jon Harmon | <span class="citation" data-cites="jonthegeek">@jonthegeek</span><span class="citation" data-cites="fosstodon.org">@fosstodon.org</span></p>
+<p>DSLC.io/useR2024 | Jon Harmon | <span class="citation" data-cites="jonthegeek">@jonthegeek</span><span class="citation" data-cites="fosstodon.org">@fosstodon.org</span></p>
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -551,6 +998,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -638,6 +1123,11 @@
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
               // target, if specified
               link.setAttribute("target", "_blank");
               if (link.getAttribute("rel") === null) {
@@ -681,7 +1171,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
