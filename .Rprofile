@@ -1,3 +1,6 @@
 source("renv/activate.R")
 
-# source(fs::path_home_r(".Rprofile"))
+personal_path <- fs::path_home_r(".Rprofile")
+if (fs::file_exists(personal_path)) {
+  source(personal_path, local = TRUE)
+}
