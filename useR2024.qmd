@@ -1,6 +1,6 @@
 ---
 title: |
-  <img src="images/dslc_stacked_dark.png" alt="DSLC logo" width="40%" style="float: right;">Learning Together at the Data Science Learning Community
+  <img src="images/qr_slides-no_logo.png" alt="slides available at dslc.io/useR2024" width="60%" style="float: right;">Learning Together at the Data Science Learning Community
 css: style.css
 engine: knitr
 format:
@@ -226,9 +226,6 @@ We're still the same community.
 &nbsp;&nbsp;`{r} fontawesome::fa_i("chart-line")` data visualizations \
 &nbsp;&nbsp;`{r} fontawesome::fa_i("file-code")` code
 :::
-::: {.fragment fragment-index=4}
-📥 To-do: App for finding datasets
-:::
 ::::
 :::: column
 ::: {.fragment fragment-index=3}
@@ -245,6 +242,17 @@ We're still the same community.
 -   Nicola Rennie from March 2024
 -   Used in college courses for projects
     -   See github.com/r4ds/ttmeta
+:::
+
+## TidyTuesday in Education
+
+[DSLC.io/ttsurvey23](https://dslc.io/ttsurvey23)
+
+![](images/qr_ttsurvey.png)
+
+::: notes
+-   If you use TidyTuesday in education (as a student or as a teacher), please fill out this survey!
+-   In part, we're using this to decide what to do in ttmeta tool.
 :::
 
 # How can I help?
@@ -291,6 +299,7 @@ We're still the same community.
 -   We're a collective in the Open Collective Foundation, which makes us count as a 501c3 charitable organization for US taxes.
     -   OCF dissolved suddenly in March 2024
     -   Need a STABLE new host by end of this year
+    -   Application in progress!
 -   Even before then we can start working out details of grants and sponsorships!
     -   I don't get paid for any of this yet.
     -   My dream is to work on this full time.
